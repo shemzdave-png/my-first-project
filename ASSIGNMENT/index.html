@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Festava Live</title>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google font-->
+  <Link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="styleseet">
+  </Link>
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="bg-white-900 text-white">
+
+  <!-- Top Bar -->
+  <div class="bg-yellow-400 text-sm text-black text-left py-3">
+    🎵 Welcome to Music Festival 2023
+  </div>
+
+  <!-- Navbar -->
+  <header class="absolute w-full z-50">
+    <div class="container mx-auto flex justify-between items-center py-6 px-6 text-white">
+      <h1 class="text-2xl font-bold">Festava Live</h1>
+      <nav class="hidden md:flex gap-10 space-x-8">
+        <a href="#" class="text-orange-500 font-semibold">Home</a>
+        <a href="#" class="hover:text-orange-500">About</a>
+        <a href="#" class="hover:text-orange-500">Artists</a>
+        <a href="#" class="hover:text-orange-500">Schedule</a>
+        <a href="#" class="hover:text-orange-500">Pricing</a>
+        <a href="#" class="hover:text-orange-500">Contact</a>
+      </nav>
+      <button class="bg-orange-500 px-5 py-2 rounded-full font-semibold hover:bg-orange-600">
+        Buy Ticket
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative h-screen flex items-center justify-center text-center">
+
+    <video autoplay muted loop playsinline class="absolute w-full h-full object-cover">
+      <source src="pexels-2022395.mp4" type="video/mp4">
+    </video>
+
+    <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+
+    <div class="relative text-center px-6">
+      <p class="uppercase tracking-widest text-sm">Festava Live Presents</p>
+      <h2 class="text-5xl md:text-6xl font-bold mt-4">Night Live 2023</h2>
+      <button class="mt-8 bg-orange-500 px-8 py-3 rounded-full font-semibold hover:bg-orange-600">
+        Let's begin
+      </button>
+
+      <div class="max-w-7xl mx-auto grid md:grid-cols-3 items-center px-6 gap-9 text-gray-300">
+
+        <div class="flex items-center gap-3">
+          <span class="text-orange-500 text-xl">⏰</span>
+          <p>10 - 12th, Dec 2023</p>
+        </div>
+
+        <div class="flex items-center gap-3">
+          <span class="text-orange-500 text-xl">📍</span>
+          <p>National Center, United States</p>
+        </div>
+
+        <div class="flex items-center gap-4 justify-start md:justify-end">
+
+          <span>Share:</span>
+
+          <div class="flex gap-3">
+
+            <div class="w-9 h-9 bg-orange-500 flex items-center justify-center rounded-full cursor-pointer">
+              F
+            </div>
+
+            <div class="w-9 h-9 bg-orange-500 flex items-center justify-center rounded-full cursor-pointer">
+              T
+            </div>
+
+            <div class="w-9 h-9 bg-orange-500 flex items-center justify-center rounded-full cursor-pointer">
+              I
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="py-20 bg-gradient-to-r from-orange-900 to-orange-700 text-white">
+    <div class="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+
+      <div>
+        <h3 class="text-3xl font-bold mb-6">About Festava 2022</h3>
+        <p class="mb-4">
+          Festava Live is free CSS template provided by TemplateMo website. This layout is built on Bootstrap v5.2.2 CSS
+          library.
+          You are free to use this template for your commercial website.
+        </p>
+        <p class="text-3xl font-bold mb-6">Once in Lifetime Experience</p>
+        <p class="mb-4">You are not allowed to redistribute the template ZIP file on any other website without a
+          permission.</p>
+        <p class="text-3xl font-bold mb-6">Whole Night Party</p>
+        <p class="mb-4">Please tell your friends about our website. Thank you.</p>
+      </div>
+
+      <div class="relative">
+        <img src="a happy moment festava.jpg" class="rounded-xl shadow-xl" />
+        <div class="absolute bottom-4 left-4 bg-white text-black p-4 rounded-lg shadow-lg">
+          <p class="font-semibold">a happy moment</p>
+          <p class="text-sm">your amazing festival experience</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Artists Section -->
+  <section class="py-20 bg-gray-100">
+    <div class="container mx-auto px-6">
+      <h3 class="text-3xl font-bold text-center mb-12">Meet Artists</h3>
+
+      <div class="grid md:grid-cols-3 justify-center gap-6">
+        <img src="madona guitar.jpg" class="rounded-xl shadow-lg">
+
+        <div class="grid gap-6">
+          <img src="rihana singing.jpg" class="rounded-xl shadow-lg">
+          <img src="bruno piano.jpg" class="rounded-xl shadow-lg">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Event Schedule -->
+  <section class="py-20 bg-black text-white">
+    <div class="container mx-auto px-6">
+      <h3 class="text-3xl font-bold text-center mb-12">Event Schedule</h3>
+
+      <div class="overflow-x-auto">
+        <table class="w-full text-center border-collapse">
+          <thead>
+            <tr class="bg-orange-500">
+              <th class="p-4">Date</th>
+              <th class="p-4">Wednesday</th>
+              <th class="p-4">Thursday</th>
+              <th class="p-4">Friday</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="bg-gray-800">
+              <td class="p-6 font-semibold">Day 1</td>
+              <td class="p-6">Pop Night</td>
+              <td class="p-6"></td>
+              <td class="p-6">Rock & Roll</td>
+            </tr>
+            <tr class="bg-gray-700">
+              <td class="p-6 font-semibold">Day 2</td>
+              <td class="p-6"></td>
+              <td class="p-6">DJ Night</td>
+              <td class="p-6"></td>
+            </tr>
+            <tr class="bg-gray-800">
+              <td class="p-6 font-semibold">Day 3</td>
+              <td class="p-6">Country Music</td>
+              <td class="p-6"></td>
+              <td class="p-6">Free Styles</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section class="py-20 bg-gray-200">
+    <div class="container mx-auto px-6">
+      <h3 class="text-3xl font-bold text-center mb-12">Plans, you'll love</h3>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="border-2 border-dashed border-gray-400 p-8 rounded-xl bg-white shadow">
+          <h4 class="text-xl font-semibold">Early Bird</h4>
+          <p class="text-3xl font-bold my-4">$120</p>
+          <button class="mt-4 text-orange-500 font-semibold">Buy Ticket →</button>
+        </div>
+
+        <div class="border-2 border-dashed border-gray-400 p-8 rounded-xl bg-white shadow relative">
+          <div class="absolute -top-4 right-4 bg-orange-500 text-white text-sm px-4 py-1 rounded-full">
+            Save up to 50%
+          </div>
+          <h4 class="text-xl font-semibold">Standard</h4>
+          <p class="text-3xl font-bold my-4">$240</p>
+          <button class="mt-4 text-orange-500 font-semibold">Buy Ticket →</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="py-20 bg-gray-100">
+    <div class="container mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold mb-10">Interested? Let's talk</h3>
+
+      <div class="max-w-2xl mx-auto bg-white p-8 rounded-xl shadow-lg">
+        <form class="space-y-4">
+          <input type="text" placeholder="Full name"
+            class="w-full border rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-orange-500">
+          <input type="email" placeholder="Email address"
+            class="w-full border rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-orange-500">
+          <textarea rows="4" placeholder="Message"
+            class="w-full border rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-orange-500"></textarea>
+          <button class="bg-orange-500 text-white px-6 py-3 rounded-full hover:bg-orange-600">
+            Send message
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-gray-400 py-12">
+    <div class="container mx-auto px-6 grid md:grid-cols-3 gap-8">
+      <div>
+        <h4 class="text-white text-xl font-bold mb-4">Festava Live</h4>
+        <p>Copyright © 2036 Festava Live Company</p>
+      </div>
+      <div>
+        <h5 class="text-white mb-4 font-semibold">Links</h5>
+        <ul class="space-y-2">
+          <li>Home</li>
+          <li>About</li>
+          <li>Artists</li>
+          <li>Schedule</li>
+          <li>Pricing</li>
+        </ul>
+      </div>
+      <div>
+        <h5 class="text-white mb-4 font-semibold">Have a question?</h5>
+        <p>090-080-0760</p>
+        <p>hello@company.com</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
